@@ -20,7 +20,7 @@
     "strictPropertyInitialization": true,
     "useUnknownInCatchVariables": true,
     "module": "ES2022",
-    "lib": ["ES2022"],
+    "lib": ["ES2022", "DOM"],
     "moduleResolution": "node",
     "removeComments": true,
     "sourceMap": false

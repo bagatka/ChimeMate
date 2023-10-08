@@ -9,7 +9,6 @@
   },
   "author": "Alexander Bagatka",
   "devDependencies": {
-    "@twa-dev/sdk": "^6.9.0",
     "@twa-dev/types": "^6.9.0",
     "css-loader": "^6.8.1",
     "html-webpack-plugin": "^5.5.3",
