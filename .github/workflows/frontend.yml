@@ -16,11 +16,14 @@ jobs:
           persist-credentials: false
 
       - name: Install
-        run: npm install
+        working-directory: src/Frontend/
+        run:
+          npm ci
 
       - name: Build
-        run: |
-          npm build-prod
+        working-directory: src/Frontend/
+        run:
+          npm run build-prod
       - name: Deploy to GH Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
