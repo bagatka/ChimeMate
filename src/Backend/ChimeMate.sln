@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChimeMate.Api", "ChimeMate.Api\ChimeMate.Api.csproj", "{1586480A-1ED6-4DD0-8162-1D0543493DDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChimeMate.Application", "ChimeMate.Application\ChimeMate.Application.csproj", "{E6929690-30B8-4EFC-9690-5810E1FD83B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChimeMate.Infrastructure", "ChimeMate.Infrastructure\ChimeMate.Infrastructure.csproj", "{FF474534-3591-4130-A3A1-11D2F648E2C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChimeMate.Extensions", "ChimeMate.Extensions\ChimeMate.Extensions.csproj", "{0DB20CB1-AC76-47EF-8AF6-C44886D89B5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1586480A-1ED6-4DD0-8162-1D0543493DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1586480A-1ED6-4DD0-8162-1D0543493DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1586480A-1ED6-4DD0-8162-1D0543493DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1586480A-1ED6-4DD0-8162-1D0543493DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6929690-30B8-4EFC-9690-5810E1FD83B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6929690-30B8-4EFC-9690-5810E1FD83B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6929690-30B8-4EFC-9690-5810E1FD83B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6929690-30B8-4EFC-9690-5810E1FD83B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF474534-3591-4130-A3A1-11D2F648E2C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF474534-3591-4130-A3A1-11D2F648E2C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF474534-3591-4130-A3A1-11D2F648E2C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF474534-3591-4130-A3A1-11D2F648E2C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB20CB1-AC76-47EF-8AF6-C44886D89B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB20CB1-AC76-47EF-8AF6-C44886D89B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB20CB1-AC76-47EF-8AF6-C44886D89B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB20CB1-AC76-47EF-8AF6-C44886D89B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
