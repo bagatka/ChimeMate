@@ -25,6 +25,12 @@ jobs:
         run:
           npm run build-prod
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: github-pages
+          path: src/Frontend/dist
+
   deploy:
     needs: build
 
@@ -41,5 +47,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-        with:
-          path: src/Frontend/build/dist
